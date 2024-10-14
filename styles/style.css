@@ -10,7 +10,7 @@
 /* shayerd styles */
 
 .primary-description {
-  color: rgb(13, 19, 33);
+  color: rgb(255, 255, 255);
   font-size: 16px;
   font-weight: 400;
   text-align: center;
@@ -202,4 +202,56 @@ main section {
   margin: 0px 24px;
   gap: 32;
   padding: 40px;
+}
+
+/* support section styles */
+
+.support {
+  background-image: url(../assets/handshake.jpg);
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  background-position: ;
+  text-align: center;
+  gap: 32;
+  padding: 64px 48px 64px 48px;
+}
+
+.support-content{
+  padding-bottom: 24px;
+}
+
+.support-title {
+  font-weight: 700;
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+}
+
+.input-text {
+  color: rgba(13, 19, 33, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  margin: 0px 16px;
+  width: 548px;
+  height: 57px;
+  gap: 10;
+  padding: 19px 20px 19px 20px;
+  text-align: start;
+}
+
+.input-submit {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  gap: 10;
+  padding: 17px 20px 17px 20px;
+  border-radius: 8px;
+  border: none;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
 }
